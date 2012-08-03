@@ -7,6 +7,6 @@ public class HouseBlend extends Beverage {
 
   @Override
   public float cost() {
-    return .89;
+    return .89f + super.cost();
   }
 }
